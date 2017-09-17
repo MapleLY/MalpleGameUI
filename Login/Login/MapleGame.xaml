@@ -1,0 +1,37 @@
+﻿<Window x:Class="Login.MapleGame"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MapleGame" Height="470.338" Width="961.017" Closed="Window_Closed" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" MinWidth="961.017" MaxWidth="961.017" MinHeight="470.338" MaxHeight="470.338">
+    <Grid>
+
+        <Menu HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="954" Background="#FF363333" Foreground="#FFCACACA">
+            <MenuItem Header="菜单" Foreground="#FFCACACA" Height="33">
+                <MenuItem Header="注销" HorizontalAlignment="Left" Width="144" Click="MenuItem_Click" Foreground="#FF2F2F2F" Background="#FFE3E2E2"/>
+                <MenuItem Header="退出" HorizontalAlignment="Left" Width="144" Click="MenuItem_Click_1" Foreground="#FF2F2F2F" Background="#FFE3E2E2"/>
+            </MenuItem>
+            <MenuItem Header="查看游戏库" Foreground="#FFCACACA" Click="MenuItem_Click_2">
+            </MenuItem>
+
+        </Menu>
+        <Image Margin="0,33,0.4,0.8" Source="Maple1.png" Stretch="Fill"/>
+        <DockPanel HorizontalAlignment="Left" Height="385" LastChildFill="False" Margin="0,56,0,-0.2" VerticalAlignment="Top" Width="954">
+        </DockPanel>
+        <Image Margin="47,127,545.4,108.8" Source="NBA.jpg" Stretch="Fill" MouseLeftButtonDown="Image_MouseLeftButtonDown"/>
+        <TextBlock HorizontalAlignment="Left" Margin="63,78,0,0" TextWrapping="Wrap" Text="今日推荐" VerticalAlignment="Top" Foreground="#FFE6E5E5" Height="32" Width="122" FontSize="20"/>
+        <Image Margin="431,245,292.4,108.8" Source="left 4 dead.jpg" Stretch="Fill" MouseLeftButtonDown="Image_MouseLeftButtonDown_3"/>
+        <Image Margin="683,127,40.4,226.8" Source="CS go.jpg" Stretch="Fill" MouseLeftButtonDown="Image_MouseLeftButtonDown_2"/>
+        <Image Margin="431,127,292.4,226.8" Source="D'ont starve together.jpg" Stretch="Fill" MouseLeftButtonDown="Image_MouseLeftButtonDown_1"/>
+        <Image Margin="683,245,40.4,108.8" Source="grand theft auto.jpg" Stretch="Fill" MouseLeftButtonDown="Image_MouseLeftButtonDown_4"/>
+        <Image Margin="0,365,0.4,0.8" Source="steamlog.png" Stretch="Fill"/>
+        <Label Content="关于MapleGame" HorizontalAlignment="Left" Margin="191,391,0,0" VerticalAlignment="Top" Foreground="#FFD6D6D6"/>
+        <Label Content="隐私政策" HorizontalAlignment="Left" Margin="394,391,0,0" VerticalAlignment="Top" Foreground="#FFD6D6D6"/>
+        <Label Content="法律信息" HorizontalAlignment="Left" Margin="567,391,0,0" VerticalAlignment="Top" Foreground="#FFD6D6D6"/>
+        <Label Content="用户协议" HorizontalAlignment="Left" Margin="732,391,0,0" VerticalAlignment="Top" Foreground="#FFD6D6D6"/>
+        <TextBlock HorizontalAlignment="Left" Margin="339,396,0,0" TextWrapping="Wrap" Text="|" VerticalAlignment="Top" Foreground="#FFD6D6D6"/>
+        <TextBlock HorizontalAlignment="Left" Margin="515,396,0,0" TextWrapping="Wrap" Text="|" VerticalAlignment="Top" Foreground="#FFD6D6D6"/>
+        <TextBlock HorizontalAlignment="Left" Margin="694,396,0,0" TextWrapping="Wrap" Text="|" VerticalAlignment="Top" Foreground="#FFD6D6D6"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="777,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Image Margin="897,43,24.4,364.8" Source="search.png" Stretch="Fill"/>
+
+    </Grid>
+</Window>
